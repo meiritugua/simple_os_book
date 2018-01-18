@@ -1,10 +1,8 @@
 # Summary
 
-* [Introduction](README.md)
 * [封面](zh/cover/cover.md)
 * [前言](README.md)
 * [操作系统简介](zh/preface/preface.md)
-
   * [应具备的背景知识和学习环境](zh/preface/preknowledge.md)
   * [了解计算机硬件架构](zh/preface/hardware.md)
     * [计算机硬件架构](zh/preface/pc.md)
@@ -20,32 +18,23 @@
   * [“麻雀”操作系统--ucore](zh/preface/smallos_ucore.md)
     * [ucore简介](zh/preface/ucore.md)
   * [小结](zh/preface/summary_preface.md)
-
 * [启动操作系统](zh/chapter-1/bootloader_up_os.md)
-
 * [实验一：显示字符的toy bootloader](zh/chapter-1/proj1_small_bootloader.md)
-
   * [背景：Intel 80386加电后启动过程](zh/chapter-1/poweron.md)
   * [背景：设备管理：理解设备访问机制](zh/chapter-1/io_access.md)
   * [背景：内存管理：理解保护模式和分段机制](zh/chapter-1/protect_mode.md)
   * [实现：实模式到保护模式的切换](zh/chapter-1/real_mode_switch_protect_mode.md)
   * [实现：设置栈内存空间](zh/chapter-1/setup_stack.md)
   * [实现：显示字符串](zh/chapter-1/show_string.md)
-
 * [实验二：读ELF格式文件的baby bootloader](zh/chapter-1/proj2_bootloader_load_ucore.md)
-
   * [背景：访问硬盘数据控制](zh/chapter-1/access_harddisk.md)
   * [背景：理解ELF文件格式](zh/chapter-1/elf_format.md)
   * [背景：操作系统执行代码的组成](zh/chapter-1/ucore_code.md)
   * [实现：bootloader加载并运行ucore](zh/chapter-1/load_run_ucore.md)
   * [实现：可输出字符串的ucore](zh/chapter-1/show_string_in_ucore.md)
-
 * [小结](zh/chapter-1/summary.md)
-
 * [参考资料](zh/chapter-1/reference.md)
-
 * [ucore操作系统开始控制计算机](zh/chapter-2/ucore_control_computer.md)
-
   * [实验三：能显示函数调用关系的ucore](zh/chapter-2/proj3_function_call_stack.md)
     * [背景：栈结构和处理过程](zh/chapter-2/stack_process.md)
     * [实现：分析内核函数调用关系](zh/chapter-2/kernel_function_call_stack.md)
@@ -62,9 +51,7 @@
     * [实现：用户态切换到内核态](zh/chapter-2/user_to_kernel.md)
   * [操作系统基本原理：管理计算机硬件](zh/chapter-2/osprinciple_control_computer.md)
   * [小结](zh/chapter-2/summary.md)
-
 * [物理内存管理](zh/chapter-3/ucore_phymem_management.md)
-
   * [实验1: 建立分页管理机制](zh/chapter-3/pages_managment.md)
     * [背景: 计算机物理内存分布和大小](zh/chapter-3/phymen_size.md)
     * [实现: 物理内存探测](zh/chapter-3/phymem_analysis.md)
@@ -85,9 +72,7 @@
     * [实现: 页面置换机制实现](zh/chapter-3/implement_swap.md)
     * [proj9.1：实现共享内存](zh/chapter-3/implement_shared_mem.md)
     * [proj9.2：实现写时复制](zh/chapter-3/implement_copy_on_write.md)
-
 * [进程管理与调度](zh/chapter-4/process_managment.md)
-
   * [实验1: 创建并执行内核线程](zh/chapter-4/create_kern_thread.md)
     * [原理: 进程的属性与特征解析](zh/chapter-4/what_is_process.md)
     * [实现: 设计进程控制块](zh/chapter-4/design_PCB.md)
@@ -109,7 +94,6 @@
     * [原理: 进程调度](zh/chapter-4/process_schedule_principal.md)
     * [实现: 进程调度](zh/chapter-4/process_schedule_implement.md)
   * [小结](zh/chapter-4/process_summary.md)
-
 * [附录](zh/supplement/supplement.md)
   * [附录A--ucore历史](zh/supplement/ucore-history.md)
   * [附录B--构成ucore lab的小项目列表](zh/supplement/ucore-projlists.md)
